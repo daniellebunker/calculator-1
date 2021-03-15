@@ -60,3 +60,10 @@ def mod(num1, num2):
     return num1 % num2
 
 mod(10, 3)
+
+def add_mult(num1, num2, num3):
+    """Returns the value of sum of num1 and num2, multiplied by sum3"""
+
+    return (num1 + num2) * num3
+
+add_mult(1, 2, 3)
