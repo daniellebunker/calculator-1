@@ -27,6 +27,9 @@ multiply(2, 3)
 def divide(num1, num2):
     """Divide the first input by the second and return the result."""
 
+    return num1 / num2
+
+divide(7, 2)
 
 def square(num1):
     """Return the square of the input."""
