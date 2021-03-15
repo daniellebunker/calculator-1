@@ -34,9 +34,17 @@ divide(7, 2)
 def square(num1):
     """Return the square of the input."""
 
+    return num1 * num1
+
+square(2)
+
 
 def cube(num1):
     """Return the cube of the input."""
+
+    return num1 * num1 * num1
+
+cube(5)
 
 
 def power(num1, num2):
